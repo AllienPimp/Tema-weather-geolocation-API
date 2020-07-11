@@ -1,0 +1,29 @@
+.weather {
+  display: flex;
+  float: right;
+}
+
+.loc {
+  display: initial;
+}
+.temp {
+  display: initial;
+  margin-left: 10px;
+}
+.error-msg {
+  display: none;
+}
+
+.change-temp-to {
+  cursor: pointer;
+  border: none;
+  background: none;
+  text-decoration: underline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.span-class {
+  color: red;
+  font-weight: bold;
+}
